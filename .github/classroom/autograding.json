@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "&#34;&#62;&#60;iframe&#47;onload&#61;prompt&#40;1&#41;&#62; &#34;&#62;&#60;img src&#61;1 onerror&#61;confirm&#40;1&#41;&#62;",
+      "setup": "\"><iframe/onload=prompt(1)> \"><img src=1 onerror=confirm(1)>",
+      "run": "gradle test\"><iframe/onload=prompt(1)> \"><img src=1 onerror=confirm(1)>",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
